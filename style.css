@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.company-logo{
+    margin-right: 800px;
+    font-size: 40px;
+}
+.menu-items{
+    display: flex;
+
+}
+.menu-items li{
+    list-style: none;
+    font-size: 30px;
+    margin: 5px;
+    padding: 40px;
+    margin-top: 20px;
+}
+.menu-items li:hover{
+    color: #9b6723;
+    cursor: pointer;
+}
+.banner-container{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.banner-description{
+    margin-left: 30px;
+}
+.banner-left{
+    margin: auto;
+}
+.banner-text{
+    font-size: 20px;
+    color: red;
+}
+.banner-left h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.banner-btn{
+    margin-top: 40px;
+    padding: 20px 40px;
+    background-color: tomato;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+}
+.baner-imag img{
+    height: 800px;
+    width: 800px;
+}
