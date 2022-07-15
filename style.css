@@ -17,7 +17,10 @@ body{
 }
 .menu-items{
     display: flex;
-
+}
+.menu-items a{
+    text-decoration: none;
+    color: white;
 }
 .menu-items li{
     list-style: none;
@@ -56,6 +59,12 @@ body{
     font-size: 30px;
     color: white;
     border-radius: 10px;
+    
+}
+.banner-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
 }
 .baner-imag img{
     height: 800px;
