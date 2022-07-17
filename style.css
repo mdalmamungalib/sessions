@@ -1,5 +1,4 @@
 body{
-    font-family: 'Roboto Slab', serif;
     margin: 0;
     padding: 0;
     
@@ -66,7 +65,92 @@ body{
     color: white;
     font-size: 30px;
 }
+.banner-btn a:hover{
+    color:#238d9b;
+}
 .baner-imag img{
     height: 800px;
     width: 800px;
+}
+.titale2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.section-two{
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1{
+    width: 400px;
+    height: 300px;
+    border: 1px solid lightslategray;
+    border: none;
+    text-align: center;
+    box-shadow: 15px 15px 26px gray;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .10ms;
+}
+.card1:hover{
+    border: 3px solid #238d9b;
+    margin-top: -40px;
+    transition: .10ms;
+}
+.gym-icon{
+    width: 120px;
+}
+.lorem{
+    text-align: justify;
+}
+.about-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    
+}
+.about-left{
+    width: 700px;
+}
+.workout-image{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+}
+
+
+.workout-image img{
+    height: 700px;
+    width: 450px;
+    transform: skewy(-15deg);
+}
+.about-2{
+    margin-left: 20px;
+}
+
+
+.about-right{
+    display: flex;
+    margin-left: 380px;
+    margin-top: 200px;
+}
+.about-text h1{
+    text-align: center;
+}
+.about-right h1{
+    color: red;
+    font-size: 20px;
+}
+.about-right p{
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-right ul{
+    font-size: 20px;
 }
